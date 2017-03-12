@@ -37,7 +37,7 @@ public class CurrencyExchangeController {
     	CurrencyDTO currencydto = new CurrencyDTO(value,currency);
    	 	return currencydto;
     }
-    
+ /*   
     //http:localhost:8080//currencydto?value=100&currency=pln
    	@RequestMapping("currencydto")
     public CurrencyDTO getCurrencyDTO2(@RequestParam("value") BigDecimal value, 
@@ -45,5 +45,5 @@ public class CurrencyExchangeController {
        	CurrencyDTO currencydto = new CurrencyDTO(value,currency);
       	return currencydto;   	 
    	 	
-    }
+    }*/
 }
