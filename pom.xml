@@ -4,7 +4,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.05-SNAPSHOT</version>
+	<version>0.04-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
@@ -17,12 +17,12 @@
 
 <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>releases</id>
             <name>Internal Releases</name>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>snapshots</id>
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
