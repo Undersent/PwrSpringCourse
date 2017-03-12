@@ -4,7 +4,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.01</version>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
@@ -12,7 +12,8 @@
 	
 	<scm>
 		<developerConnection>scm:git:https://github.com/Undersent/PwrSpringCourse.git/</developerConnection>
-  	</scm>
+  	  <tag>firstRelease</tag>
+  </scm>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
