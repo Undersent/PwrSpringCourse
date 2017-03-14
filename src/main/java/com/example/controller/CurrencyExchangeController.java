@@ -36,14 +36,14 @@ public class CurrencyExchangeController {
     public CurrencyDTO getCurrencyDTO(@PathVariable BigDecimal value,@PathVariable String currency) {
     	CurrencyDTO currencydto = new CurrencyDTO(value,currency);
    	 	return currencydto;
-   /* }
+    }
    
-    //http:localhost:8080//currencydto?value=100&currency=pln
+    /*  //http:localhost:8080//currencydto?value=100&currency=pln
    	@RequestMapping("currencydto")
     public CurrencyDTO getCurrencyDTO2(@RequestParam("value") BigDecimal value, 
     		@RequestParam("currency") String currency) {
        	CurrencyDTO currencydto = new CurrencyDTO(value,currency);
       	return currencydto;   	 
-   	 	*/
-    }
+   	 	
+    }*/
 }
